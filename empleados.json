@@ -1,0 +1,15 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"empleados"},
+{"type":"table","name":"empleados","database":"empleados","data":
+[
+{"emp_id":"133","emp_name":"Manuel","emp_last_name":"Pacal","emp_phone":"2147483647","emp_email":"PascalMan@gmail.com","emp_direction":"Av. Pie de la cuesta 445"},
+{"emp_id":"143","emp_name":"Edgar","emp_last_name":"Pavon","emp_phone":"44270498","emp_email":"pavonedgar@mail.com","emp_direction":"Av. de la luz 134"},
+{"emp_id":"345","emp_name":"Jesscia","emp_last_name":"Mali Ramirez","emp_phone":"2147483647","emp_email":"JessicaMali@mail.com","emp_direction":"5 de febrero 556"},
+{"emp_id":"628","emp_name":"Pedro","emp_last_name":"Pica Metal","emp_phone":"2147483647","emp_email":"PedroMetal@mail.com","emp_direction":"Desarrollo San pablo 555"},
+{"emp_id":"667","emp_name":"Isaac","emp_last_name":"Newton","emp_phone":"2147483647","emp_email":"IsaccN@gmail.com","emp_direction":"Av. Sombrerete 563"},
+{"emp_id":"998","emp_name":"Kmonito","emp_last_name":"Johnson","emp_phone":"2147483647","emp_email":"Kmonote@outlook.com","emp_direction":"Calle Guadalarajara 345"},
+{"emp_id":"999","emp_name":"Dilan","emp_last_name":"Mathew","emp_phone":"442678923","emp_email":"Dial33@gmail.com","emp_direction":"Pantheon Griego"}
+]
+}
+]

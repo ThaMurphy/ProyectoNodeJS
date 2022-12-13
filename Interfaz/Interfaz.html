@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleado</title>
+    <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src = "./js/Interfaz.js"></script>
+    <link href="css/estilo.css" rel="stylesheet">
+
+</head>
+
+    <header>
+    <div class="row mt-5">
+    
+        <div class="col-6 offset-3">
+            <h1>Recursos Humanos Node.js </h1>
+        
+            <form action="login.html">
+                <input type="submit" value="Cerrar Sesion" class="btnCerrar" />
+            </form>
+            <form action="signin.html">
+                <input type="submit" value="Registrar Usuario" class="btnSignin" />
+            </form>
+
+            <div class="botons">
+            
+            
+            <form action="delete.html">
+                <input type="submit" value="Borrar Empleado" class="btnBorrar" />
+            </form>
+            <form action="insert.html">
+                <input type="submit" value="Agregar Empleado" class="btnAgregar" />
+            </form>
+            <form action="update.html">
+                <input type="submit" value="Actualiza Empleado" class="btnActualizar" />
+            </form>
+        </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</header>
+<body></body>
+    <div class="nombres1">
+    <span class="nombres">Nombre</span><span class="ids">Id</span><span class="telefonos">Telefono</span><span class="emails">Email</span><span class="direccions">Direccion</span>
+</div>
+
+<div class="java">
+
+  <script>  function displayEmpleado(empleado) {
+        var body = document.querySelector("body");
+        for( var i = 0; i < empleado.length; i++) {
+            if (i % 2 == 0){
+            body.innerHTML += `<p class="f1"><span class="sname">${empleado[i].emp_name} ${empleado[i].emp_last_name}</span><span class="sid">${empleado[i].emp_id}</span><span class="sphone">${empleado[i].emp_phone}</span><span class="semail">${empleado[i].emp_email}</span><span class="sdirection">${empleado[i].emp_direction}</span></p>`;
+            }else{
+            body.innerHTML += `<p class="f1"><span class="spname">${empleado[i].emp_name} ${empleado[i].emp_last_name}</span><span class="spid">${empleado[i].emp_id}</span><span class="spphone">${empleado[i].emp_phone}</span><span class="spemail">${empleado[i].emp_email}</span><span class="spdirection">${empleado[i].emp_direction}</span></p>`;
+            }
+        }  
+    }</script>
+ 
+</div>
+</body>
+</html>
